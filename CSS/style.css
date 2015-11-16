@@ -15,7 +15,6 @@ h2 {
 	font-size: 35px;
 	text-align: center;
 	color:#DB182C;
-	margin-top:80px;
 	margin-bottom:40px;
 }
 
@@ -37,10 +36,15 @@ margin-left: 200px;
 
 #wrapper{
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
-	background-image: url("../image/usainbolt.jpeg");
+	background-image: url("../image/voiture-speed.jpeg");
 	background-size: cover;  
 	height:750px;
 	padding-top:200px;
+}
+
+.block{
+	padding-top:60px;
+	padding-bottom:60px;
 }
 
 #association {
@@ -51,7 +55,7 @@ margin-left: 200px;
 #audencia{
 	width:300px;
 }
-#evenements{
+#actions{
 	background:#FBF9F6;
 }
 
@@ -107,7 +111,7 @@ margin-left: 200px;
 }
 
 #social a:hover{
-	color:#dddd;
+	color:#grey;
 }
 
 .fa-facebook-official{
