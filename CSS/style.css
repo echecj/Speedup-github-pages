@@ -1,0 +1,169 @@
+body{
+	color:#908F8E;
+	font-family: 'open-sans', sans-serif;
+	font-size: 17px; 
+	margin:0px;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 0px;
+	color:white;
+}
+
+h2 {
+	font-size: 35px;
+	text-align: center;
+	color:#DB182C;
+	margin-top:80px;
+	margin-bottom:40px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+	color:#636363
+}
+
+h1, h2 {
+	font-family: Arial;
+	text-align: center;
+}
+
+#logo {
+width: 200px;
+margin-left: 200px;
+}
+
+#wrapper{
+	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+	background-image: url("../image/usainbolt.jpeg");
+	background-size: cover;  
+	height:750px;
+	padding-top:200px;
+}
+
+#association {
+	background: white;
+	margin:0px;
+}
+
+#audencia{
+	width:300px;
+}
+#evenements{
+	background:#FBF9F6;
+}
+
+#equipe{
+	text-align: center
+}
+
+#partenaires{
+	background-color:#FBF9F6;
+
+}
+
+.smallimage{
+	width:100px;
+}
+
+.mediumimage{
+	width:180px;
+}
+
+.bigimage{
+	width:300px;
+}
+
+.bgwhite{
+	background:white;
+}
+
+.fadrop{
+	color:grey;
+	width:20px;
+}
+
+.fa {
+	width: 20px;
+	font-size: 40px;
+	color:white;
+
+}
+
+#footer {
+	background: #2B2B2B;
+	padding:15px;
+	font-size: 18px;
+
+}
+
+#social{
+	font-size:40px;
+	margin-top:10px;
+	margin-left:0px;
+	padding-left:160px;
+}
+
+#social a:hover{
+	color:#dddd;
+}
+
+.fa-facebook-official{
+	padding-left: 10px;
+	padding-right: 40px;
+}
+
+.navbar-brand{
+	padding: 0px;
+	margin:10px;
+}
+
+.navbar-default{
+	background-color: white;
+	border-color:rgba(0,0,0,0.7);
+	padding:0px;
+	border:0px;
+}
+
+.navbar-btn{
+	background:#F7344B;
+	border-color:#F7344B;
+}
+
+.navbar-transparent{
+	background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-right{
+	margin-top:15px;
+	padding-right:50px;
+}
+#sous-titre{
+	font-size: 25px;
+	color: white;
+	margin-top:10px;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
