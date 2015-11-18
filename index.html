@@ -27,7 +27,7 @@
 
   <body>
 		
-<nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+<nav class="navbar navbar-default navbar-transparent">
   <div class="container-fluid ">
    		 <!-- Brand and toggle get grouped for better mobile display -->
    <div class="navbar-header">
@@ -43,24 +43,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#association">Qui sommes-nous ?</a></li>
-        <li><a href="#actions">Nos actions</a></li>
-        <li><a href="#equipe">Équipe</a></li>
-        <li><a href="#partenaires">Partenaires</a></li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suivez-nous <span class="caret"></span></a>
-        	<ul class="dropdown-menu">
-            	<li><a href="https://www.facebook.com/wespeedup" target= "blank"> <i class="fa fa-facebook-official fadrop"></i>Facebook</a></li>
-            	<li><a href="https://twitter.com/WeSpeedup" target="_blank"><i class="fa fa-twitter fadrop"></i>Twitter</a></li>
-          	</ul>
+        <li><a href="#association" style="color:white">Qui sommes-nous ?</a></li>
+        <li><a href="#actions" style="color:white">Nos actions</a></li>
+        <li><a href="#equipe" style="color:white">Équipe</a></li>
+        <li><a href="#partenaires" style="color:white">Partenaires</a></li>
+		<li><button type="button" class="btn btn-default navbar-btn">Newsletter</button></li>
+
       </ul>
 
 
-      <ul class="nav navbar-nav navbar-right">
-        	<li><button type="button" class="btn btn-default navbar-btn">S'abonner à la newsletter</button></li>
-        	
-        </li>
-      </ul>
+
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -69,11 +61,14 @@
 				<div id="wrapper">
 					<h1>ENTREPRENDRE N'A JAMAIS ÉTÉ AUSSI FACILE</h1>
 					<h2 id="sous-titre">Découvrez l'univers des start-up, développez vos compétences et accélérez votre lancement</h2>
+					<video autoplay loop poster="pousse/pousse.jpg" id="bgvid">
+  						<source src="pousse/pousse.ogv" type="video/ogg">
+					</video>
 				</div>
 		
 		
 			
-				<div class="container-fluid block" id="association">
+				<div class="container-fluid block bggrey" id="association">
 					<div class="row">
 
 						<h2>Qui sommes-nous?</h2>
@@ -143,7 +138,7 @@
 		
 				
 				
-				<div class="container-fluid bg-danger block" id="actions">
+				<div class="container-fluid bg-danger block bgwhite" id="actions">
 					<div class="row">
 						
 						<h2>Nos actions</h2>
@@ -168,7 +163,7 @@
 				</div>
 
 
-				<div class="container-fluid bg-danger bgwhite block" id="equipe">
+				<div class="container-fluid bg-danger bggrey block" id="equipe">
 					<div class="row">
 						
 						<h2>L'équipe</h2>
@@ -196,7 +191,7 @@
 
 
 
-				<div class="container-fluid bg-danger block" id="partenaires">
+				<div class="container-fluid bg-danger block bgwhite" id="partenaires">
 					<div class="row">
 						
 						<h2>Partenaires</h2>

@@ -30,16 +30,23 @@ h1, h2 {
 }
 
 #logo {
-width: 200px;
-margin-left: 200px;
+width: 150px;
+margin-left: 100px;
+margin-right:200px;
 }
 
 #wrapper{
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
-	background-image: url("../image/Usain-Bolt-Top-Speed.png");
-	background-size: cover;  
-	height:750px;
-	padding-top:300px;
+	height:500px;
+	padding-top: 90px;
+}
+video#bgvid {
+  position: absolute;
+  right: 0; bottom: 0;  
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(pousse.jpg) no-repeat;
+  background-size: cover;
 }
 
 .block{
@@ -48,7 +55,7 @@ margin-left: 200px;
 }
 
 #association {
-	background: white;
+	
 	margin:0px;
 }
 
@@ -56,15 +63,16 @@ margin-left: 200px;
 	width:300px;
 }
 #actions{
-	background:#FBF9F6;
+	
 }
 
 #equipe{
 	text-align: center
+
 }
 
 #partenaires{
-	background-color:#FBF9F6;
+	
 
 }
 
@@ -81,7 +89,11 @@ margin-left: 200px;
 }
 
 .bgwhite{
-	background:white;
+	background:#FFFFFF;
+}
+
+.bggrey{
+	background:#F3F3F3;
 }
 
 .fadrop{
@@ -126,7 +138,7 @@ margin-left: 200px;
 
 .navbar-default{
 	background-color: white;
-	border-color:rgba(0,0,0,0.7);
+	border-color:rgba(0,0,0,0);
 	padding:0px;
 	border:0px;
 }
@@ -134,16 +146,19 @@ margin-left: 200px;
 .navbar-btn{
 	background:#F7344B;
 	border-color:#F7344B;
+	margin-top:23px;
+	margin-left: 20px;
 }
 
 .navbar-transparent{
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0);
 }
 
-.navbar-right{
-	margin-top:15px;
-	padding-right:50px;
+.navbar-nav{
+	margin-left:300px;
+	font-size:16px;
 }
+
 #sous-titre{
 	font-size: 25px;
 	color: white;
@@ -156,18 +171,6 @@ margin-left: 200px;
   line-height: 50px;
 }
 
-.navbar-transparent .navbar-nav > li > a:hover,
-.navbar-transparent .navbar-nav > li > a:active,
-.navbar-transparent .navbar-nav > li > a:focus,
-.navbar-transparent .navbar-nav > .open > a,
-.navbar-transparent .navbar-nav > .open > a:hover,
-.navbar-transparent .navbar-nav > .open > a:focus {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.navbar-transparent .navbar-brand:hover,
-.navbar-transparent .navbar-brand:active,
-.navbar-transparent .navbar-brand:focus {
-  color: white;
+.nav{
+	color:white;
 }
