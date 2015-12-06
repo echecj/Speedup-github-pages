@@ -67,6 +67,17 @@ padding-left:10%;
 	background-image: url('../image/rocket-launch.jpg');
 }
 
+#wrapper3{
+	background-image: url('../image/voiture.jpeg');
+}
+
+#wrapper3 h1{
+	margin-top:4%;
+}
+
+#wrapper4{
+	background-image: url('../image/wood-nature.jpeg');
+}
 .block{
 	padding: 5% 17% 5% 17%;
 }
